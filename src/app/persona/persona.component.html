@@ -1,0 +1,63 @@
+<div>
+    <form>
+     
+    
+      <div class="container">
+        <label for="nombre"><b>Primer Nombre</b></label>
+        <input type="text" placeholder="Intridusca su Nombre" name="nombre" required>
+    
+        <label for="nombre"><b>Segundo Nombre</b></label>
+        <input type="text" placeholder="Intridusca su Nombre" name="nombre" required>
+
+        <label for="Apellido"><b>Apellidos</b></label>
+        <input type="text" placeholder="Intridusca sus Apellidos" name="Apellido" required>
+
+        <label for="Celular"><b>Celular</b></label>
+        <input type="number" placeholder="Numero" name="Celular" required>
+
+        <label for="Telefono"><b>Telefono</b></label>
+        <input type="number" placeholder="Numero de Telefono" name="Telefono" required>
+
+        <label for="Cedula"><b>Cedula</b></label>
+        <input type="number" placeholder="Numero" name="Cedula" required>
+        
+
+        <label for="Pais"><b>Pais</b></label>
+        <select name="Pais">
+            <option value="1">Colombia</option> 
+            <option value="2">España</option> 
+            <option value="3">Rusia</option>
+            <option value="10">Estados Unidos</option> 
+         </select>
+
+         <label for="email"><b>Ingrese su correo electronico</b></label>
+
+            <input type="email" id="email"
+            pattern=".+@gmail.com" size="30" required>
+
+            <label for="direccion"><b>Direccion</b></label>
+            <input type="text" placeholder="Intridusca su direccion" name="direccion" required>
+        
+          <form>
+            <label for="Sexo"><b>Sexo</b></label>
+            <label for="Hombre">Hombre</label><br>
+            <input type="radio" id="Hombre" name="gender" value="Hombre">
+            <label for="Mujer">Mujer</label><br>
+            <input type="radio" id="Mujer" name="gender" value="Mujer">
+            <label for="Otro">Otro</label>
+            <input type="radio" id="Otro" name="gender" value="Otro">
+          </form>
+          
+          <label for="comentarios"><b>Comentarios</b></label>
+          <textarea name="comentarios" rows="10" cols="40">Escribe aquí tus comentarios</textarea>
+        
+          <input type="submit"  value="Verificar">
+          <input type="button"  (click)="Holi()" value="Aceptar">
+          <input type="reset"  value="Borrar todo">
+
+  
+      </div>
+    
+      
+    </form>
+    </div>
